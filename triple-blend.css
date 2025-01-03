@@ -1,0 +1,86 @@
+/* this style keeps the Gulp logo from taking over the whole page. Adjust if needed to size correctly for your page. */
+
+.coffee-title {
+    font-size: 36px; /* Larger font size for 'Our Coffees' */
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #402d21; 
+}
+  .coffee-info {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .coffee-price {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+.navbar-brand img {
+    max-height: 50px;  /* max height for the logo */
+    width: auto;       /* this alows the logo to be responsive */
+}
+
+nav img, nav .img-fluid {
+max-width: 150px;
+}
+  
+    .navbar-nav .nav-link {
+    color: #402d21; 
+      font-weight: bold
+  } 
+
+  .navbar-nav .nav-link:hover {
+    color: #c5a591; 
+  }
+
+/* Custom margin for rows */
+.custom-row-spacing {
+margin-bottom: 30px !important; }
+
+h5 {color:#402d21 !important;}
+
+p {
+    color: #453124 ;
+}
+
+.text-warning {
+    color: #402d21 !important; 
+}
+
+/* Specific styles for coffee-info links */
+.coffee-info a {
+  text-decoration: none !important;  /* Removes underline */
+  color: inherit !important;         /* Inherit color from the parent element */
+}
+
+/* Hover effect */
+.coffee-info a:hover {
+  color: #c5a591 !important; /* Change text color on hover */
+}
+
+.small-thumbnail {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    object-fit: cover;}
+
+ 
+  label.form-label {
+    font-weight: 500 !important; 
+  }
+
+  .custom-add-to-cart {
+    color: #402d21 !important; 
+    font-weight: bold;         /* Optional: Bold text */
+  }
+
+  .custom-size-button {
+    border-color: #402d21; 
+    color: #402d21; /* Font color */
+  }
+  
+  .custom-size-button:hover {
+    background-color: #402d21; /* Coffee brown background on hover */
+    color: #fff; /* White text on hover */
+  }
